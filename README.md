@@ -37,15 +37,15 @@ First install  [go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Instal
 Clone & compile:
 
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/0xIbrahim-t/erachain-pool
-    cd erachain-pool
+    git clone https://github.com/0xIbrahim-t/open-ethereum-pool
+    cd open-ethereum-pool
     make
 
 Install redis-server.
 
 ### Running Pool
 
-    ./build/bin/erachain-pool config.json
+    ./build/bin/open-ethereum-pool config.json
 
 You can use Ubuntu upstart - check for sample config in <code>upstart.conf</code>.
 
