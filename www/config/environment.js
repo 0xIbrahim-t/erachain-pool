@@ -15,14 +15,14 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//pool.erachain.io/',
+      ApiUrl: '//127.0.0.1/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://pool.erachain.io',
+      HttpHost: 'http://127.0.0.1',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: 'pool.erachain.io',
+      StratumHost: '127.0.0.1',
       StratumPort: 8008,
 
       // Fee and payout details
