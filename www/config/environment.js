@@ -15,14 +15,14 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//pool.erachain.io/',
+      ApiUrl: '//34.77.204.154/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://pool.erachain.io',
+      HttpHost: 'http://34.77.204.154',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: 'pool.erachain.io',
+      StratumHost: '34.77.204.154',
       StratumPort: 8008,
 
       // Fee and payout details
@@ -38,7 +38,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://pool.erachain.io:8080/'
+    ENV.APP.ApiUrl = 'http://34.77.204.154:8080/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
